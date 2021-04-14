@@ -12,4 +12,10 @@ tasks = [
 
 
 #Your code go here:
+def obtiene_true(nombre):
+    #print(nombre)
+    return nombre == True
 
+val_done=list(filter(lambda persona: persona["done"], tasks)) 
+resulting_true= list(filter(obtiene_true, val_done))
+print(val_done)
