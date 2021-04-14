@@ -8,10 +8,8 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 #Your code go here:
 def obtiene_names(nombre):
-    print(nombre)
-    return nombre.split("am")
+    #print(nombre)
+    return nombre.count('am')
 
-
-#val_done=list(filter(lambda persona: persona.values(), names)) 
 nombres = list(filter(obtiene_names, names))
 print(nombres)
