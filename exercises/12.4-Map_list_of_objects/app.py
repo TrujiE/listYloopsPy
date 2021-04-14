@@ -18,3 +18,8 @@ def calculateAge(birthDate):
 name_list = list(map(lambda person:  person["name"] , people))
 print(name_list)
 
+edad= list(map(lambda person:  person["birthDate"] , people))
+
+print(edad)
+
+

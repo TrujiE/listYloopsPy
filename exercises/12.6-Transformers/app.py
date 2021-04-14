@@ -7,5 +7,10 @@ incomingAJAXData = [
 ]
 
 #Your code go here:
+#def my_var(ent):
+transformedData= list(map(lambda persona: persona.values(), incomingAJAXData))
+for x in transformedData:
+    print(' '.join(map(str,x)))    
+
 
 

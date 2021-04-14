@@ -10,6 +10,16 @@ tasks = [
 	{ "label": 'Make a trip', "done": False }
 ]
 
-
+#transformedData= list(map(lambda persona: persona.values(), incomingAJAXData))
 #Your code go here:
+
+
+resulting_names= list(map(lambda falso: falso.items(), tasks))
+print(resulting_names)
+
+
+
+
+
+
 
