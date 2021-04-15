@@ -2,6 +2,7 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-
-print(counts)
+for x in par:
+    counts=par.count(x)
+    print(x,counts)
 
