@@ -6,3 +6,7 @@ def type_list(items):
 
 new_list = list(map(type_list, list_Strings))
 print(new_list)
+
+for x in new_list:
+    tipo=type(x)
+    print(tipo)

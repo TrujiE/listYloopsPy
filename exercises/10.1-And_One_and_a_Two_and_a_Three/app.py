@@ -4,4 +4,7 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
+lista= contact.items()
+for x in lista:
+    print(' : '.join(map(str,x)))
 
